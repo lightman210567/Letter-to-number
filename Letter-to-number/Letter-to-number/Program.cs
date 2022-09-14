@@ -93,8 +93,10 @@ namespace Letter_to_number
                     ConvertedLetter = 26;
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException("Only letters from the English alphabet are supported. Please do not input any other type of character.")
+                    throw new ArgumentOutOfRangeException("Only letters from the English alphabet are supported. Please do not input any other type of character.");
             }
+
+            return ConvertedLetter;
         }
     }
 }
