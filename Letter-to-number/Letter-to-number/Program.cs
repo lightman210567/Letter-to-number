@@ -10,7 +10,10 @@ namespace Letter_to_number
     {
         public static int LetterConvert(char LetterToConvert)
         {
-
+            switch (LetterToConvert)
+            {
+                
+            }
         }
     }
 }
