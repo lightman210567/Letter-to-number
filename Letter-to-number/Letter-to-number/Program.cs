@@ -12,6 +12,8 @@ namespace Letter_to_number
         {
             int ConvertedLetter;
 
+            LetterToConvert = Char.ToLower(LetterToConvert);
+
             switch (LetterToConvert)
             {
                 case 'a':
