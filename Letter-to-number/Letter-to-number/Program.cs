@@ -100,5 +100,96 @@ namespace lightman210567.LetterToNumber
 
             return ConvertedLetter;
         }
+
+        public static char NumberConvert(int NumberToConvert)
+        {
+            char ConvertedLetter = new char();
+
+            switch (NumberToConvert)
+            {
+                case 1:
+                    ConvertedLetter = 'a';
+                    break;
+                case 2:
+                    ConvertedLetter = 'b';
+                    break;
+                case 3:
+                    ConvertedLetter = 'c';
+                    break;
+                case 4:
+                    ConvertedLetter = 'd';
+                    break;
+                case 5:
+                    ConvertedLetter = 'e';
+                    break;
+                case 6:
+                    ConvertedLetter = 'f';
+                    break;
+                case 7:
+                    ConvertedLetter = 'g';
+                    break;
+                case 8:
+                    ConvertedLetter = 'h';
+                    break;
+                case 9:
+                    ConvertedLetter = 'i';
+                    break;
+                case 10:
+                    ConvertedLetter = 'j';
+                    break;
+                case 11:
+                    ConvertedLetter = 'k';
+                    break;
+                case 12:
+                    ConvertedLetter = 'l';
+                    break;
+                case 13:
+                    ConvertedLetter = 'm';
+                    break;
+                case 14:
+                    ConvertedLetter = 'n';
+                    break;
+                case 15:
+                    ConvertedLetter = 'o';
+                    break;
+                case 16:
+                    ConvertedLetter = 'p';
+                    break;
+                case 17:
+                    ConvertedLetter = 'q';
+                    break;
+                case 18:
+                    ConvertedLetter = 'r';
+                    break;
+                case 19:
+                    ConvertedLetter = 's';
+                    break;
+                case 20:
+                    ConvertedLetter = 't';
+                    break;
+                case 21:
+                    ConvertedLetter = 'u';
+                    break;
+                case 22:
+                    ConvertedLetter = 'v';
+                    break;
+                case 23:
+                    ConvertedLetter = 'w';
+                    break;
+                case 24:
+                    ConvertedLetter = 'x';
+                    break;
+                case 25:
+                    ConvertedLetter = 'y';
+                    break;
+                case 26:
+                    ConvertedLetter = 'z';
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException("Please only enter the numbers 1 to 26. any other number is unsupported");
+            }
+
+            return ConvertedLetter;
+        }
     }
 }

@@ -2,12 +2,12 @@
 <package >
   <metadata>
     <id>lightman210567.LetterToNumber</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>lightman210567</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <repository type="git" url="https://github.com/lightman210567/Letter-to-number.git"></repository>
     <description>This is a simple package i made to convert letters into their respective number in the English Alphabet</description>
-    <releaseNotes>Added letter to number conversion</releaseNotes>
+    <releaseNotes>Added number to letter conversion</releaseNotes>
   </metadata>
 </package>
