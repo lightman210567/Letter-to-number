@@ -100,5 +100,10 @@ namespace lightman210567.LetterToNumber
 
             return ConvertedLetter;
         }
+
+        public static char NumberConvert(int NumberToConvert)
+        {
+
+        }
     }
 }
