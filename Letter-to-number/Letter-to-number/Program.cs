@@ -103,7 +103,7 @@ namespace lightman210567.LetterToNumber
 
         public static char NumberConvert(int NumberToConvert)
         {
-            char ConvertedLetter;
+            char ConvertedLetter = new char();
 
             switch (NumberToConvert)
             {
@@ -186,6 +186,8 @@ namespace lightman210567.LetterToNumber
                     ConvertedLetter = 'z';
                     break;
             }
+
+            return ConvertedLetter;
         }
     }
 }
