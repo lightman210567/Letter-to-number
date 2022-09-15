@@ -103,7 +103,10 @@ namespace lightman210567.LetterToNumber
 
         public static char NumberConvert(int NumberToConvert)
         {
+            switch (NumberToConvert)
+            {
 
+            }
         }
     }
 }
