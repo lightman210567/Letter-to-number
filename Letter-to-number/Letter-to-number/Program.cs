@@ -185,6 +185,8 @@ namespace lightman210567.LetterToNumber
                 case 26:
                     ConvertedLetter = 'z';
                     break;
+                default:
+                    throw new ArgumentOutOfRangeException("Please only enter the numbers 1 to 26. any other number is unsupported");
             }
 
             return ConvertedLetter;
