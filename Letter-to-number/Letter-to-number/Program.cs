@@ -16,6 +16,9 @@ namespace lightman210567.LetterToNumber
 
             switch (LetterToConvert)
             {
+                case ' ': // This specific case if for spaces
+                    ConvertedLetter = 0;
+                    break;
                 case 'a':
                     ConvertedLetter = 1;
                     break;
@@ -107,6 +110,9 @@ namespace lightman210567.LetterToNumber
 
             switch (NumberToConvert)
             {
+                case 0:
+                    ConvertedLetter = ' ';
+                    break;
                 case 1:
                     ConvertedLetter = 'a';
                     break;
